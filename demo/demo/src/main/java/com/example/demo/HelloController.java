@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello from Spring Boot!";
+        return "Hello from from beta branch!";
     }
 
     @GetMapping("/status")
